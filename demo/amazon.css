@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+.head{
+    width: 100%;
+    box-sizing: border-box;
+}
+.logo, .search, .infor{
+    width: 15%;
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.search{
+    width: 55%;
+    background-color: rebeccapurple;
+}
+.infor{
+    width: 30%;
+    background-color: aqua;
+}
+nav{ 
+    background-color: blueviolet;
+    padding: 10px;
+}
+main, .container{
+    width: 98%;
+    box-sizing: border-box;
+    margin: 0 1% 0 1%;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.content{
+    width: 100%;
+    background-color: rgb(32, 113, 113);
+}
+.content article{
+    width: 23%;  
+    float: left;
+    background-color: rgb(208, 127, 29);
+    margin:1% ;
+}
+.menu-ngang{
+    width: 100%;
+    background-color: blue;
+}
+
+footer{
+    padding: 100px;
+    background-color: brown;
+}

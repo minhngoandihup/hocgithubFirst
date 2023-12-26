@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Slideshow hình ảnh</title>
+</head>
+<body>
+  <div class="slideshow">
+    <img src="img/anh1.jpg" alt="Hình ảnh 1">
+    <img src="img/anh2.jpg" alt="Hình ảnh 2">
+    <img src="img/anh3.jpg" alt="Hình ảnh 3">
+  </div>
+
+  <script>
+    function slideshow() {
+      var slideshow = document.querySelector(".slideshow");
+      var images = slideshow.querySelectorAll("img");
+
+      var index = 0;
+      var interval = setInterval(function() {
+        images[index].style.display = "none";
+        index = (index + 1) % images.length;
+        images[index].style.display = "block";
+      }, 5000);
+    }
+
+    slideshow();
+  </script>
+</body>
+</html>
